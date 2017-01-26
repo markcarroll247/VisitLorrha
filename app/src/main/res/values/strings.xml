@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">VisitLorrha</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_photosphere">Photosphere</string>
+    <string name="title_activity_maps_activity_augustinian_abbey">Map</string>
+    <string name="title_activity_maps_activity_st_ruadhans_abbey">Map</string>
+    <string name="title_activity_maps_activity_lackeen_castle">Map</string>
+
+    <string name="textInformationdominicanabbey"> The Dominican Friary is located beside the present
+        day Roman Catholic Church. It was founded in 1269 by Walter De Burgo, Earl of Ulster and a major
+        local landowner, who was of the Burkes that were to settle in nearby Portumna Castle. The
+        Dominican Order was founded in 1215 by St. Dominic; their rules were based on poverty and preaching.
+        They wore a black cloak and hood over a white tunic; hence they were often referred to as the
+        ‘Black Friars’. The order came to Ireland in 1224 and by 1300 had 24 friaries, Lorrha of course
+        being one of these.One can only imagine the life of a friar down through the centuries, their strict
+        lifestyles consisting of hours of silent prayer, long periods of fasting and working to provide for
+        and maintain their upkeep. They would have worked the mill (still situated beside the Friary) on the
+        banks of the Lorrha River which would have provided bread, a most important part of people’s diet in
+        those days. Anyone passing by the Friary might also have become accustomed to the sound of numerous
+        holy men chanting and singing from their various psalms. They might also leave their quarters to preach
+        to the local people who in those times were still hanging on to the old pre-Christian beliefs and were
+        often at war with neighbouring territories. The friars would have had living quarters close to the main
+        building of worship and there is structural evidence that these might have been situated under the
+        Roman Catholic Church. A statue of St. Ruadhan is believed to have been situated in a niche in the
+        south wall and is suggested to have been carved from wood; no trace of it remains today. Also inside
+        the church and placed on the wall are grave slab memorials of two important families of Lorrha’s past,
+        the O’Kennedys and the McEgans. There is evidence the monastery was burned at one time with traces of
+        smoke staining under the large window at the east gable. Cromwell’s army is believed to be responsible
+        for this. and as Lorrha was on their path as they marched from Athlone to Limerick it is most probable
+        that the Friary would not have escaped their ‘fire and sword’. The Monastery seems to have survived the
+        Cromwellian campaign of the 1650’s and the dissolution of the monasteries in 1537.
+    </string>
+    <string name="textInformationaugustinianabbey"> A much more welcome and peaceful group of newcomers arrived
+        in Lorrha in the 12th century, these were the priors who were devoted to Saint Augustine. The priors
+        would have lived to the saints often controversial teachings which were known as the rules of Saint
+        Augustine. They dressed in black cloaks and were often known as `Black Canons’. On the top of the ornate
+        doorway on the south wall is the carved head of a woman wearing a horned headdress, one suggestion is
+        that this lady was the wife of the Norman overlord who might have commissioned its building as was normal
+        practice in those days. The Priory also held a piscina with credence. The piscina was a small carved
+        stone basin used for washing the communion vessels and the credence was an ornate shelf that supported
+        the piscina. These two items were removed in the 1880`s and brought to the Church of the Immaculate
+        Conception in Minneapolis. One James McGoldrick, who was Bishop of Minneapolis at the time, was
+        originally from nearby Aglish. He was a frequent visitor to his homestead at the time and he presumably
+        brought the items back with him from one of his visits. The priory lasted in Lorrha for over 400 years
+        and one prior in particular had a gruesome fate in the late 16th century!
+    </string>
+    <string name="textInformationstruadhansabbey"> St. Ruadhan was first to put Lorrha on the map coming here
+        in the middle of the 6th century. He was educated in Clonard Co. Westmeath by St. Finian and was known
+        as one of the Twelve Apostles of Ireland. He is said to have replaced St. Brendan (the navigator) at
+        Lorrha who preceded to cross the Shannon and set up his monastery at Clonfert Co. Galway Ruadhan founded
+        a monastic settlement here that would have consisted of a monastery and various other buildings
+        including cells for the many monks that would have lived here. Also a ditch or large mound would have
+        been built around the settlement to keep animals in and intruders out, the outlines of these are still
+        visible today. Life for the monks would have been tough but simple, rising early from their beds which
+        would have consisted of rushes or straw placed on the bare ground. They then would pray and fast between
+        their domestic chores. The settlement would have been self sufficient in those days providing everything
+        from food, clothing, to shelter. On the site of this settlement are the remains of an 11th century church
+        probably on the spot of Ruadhan’s original monastery. It has at the west end of the south wall an ornate
+        doorway that shows many carved motifs including a pelican drawing blood from its breast. Also there are
+        the remains of two high crosses with only the decorated shafts remaining, one of these is said to mark
+        the grave of a Munster king who died at Lorrha, the other is said to mark St. Ruadhan’s grave although
+        it seems to have been crafted many years after his death. Villages and towns often popped up around monastic
+        settlements as trade and refuge attracted the local people, the origin of Lorrha village can be attributed
+        to this. There are many legends attributed to Ruadhan but he is probably most famous for his curse on the
+        High King’s residence at Tara after the king, Diarmuid Mac Cerbhaill, had violated the sanctity of the church
+        by taken a hostage from its protection. The downfall of Tara from a once thriving royal residence is
+        credited to Ruadhan. The bell of St. Ruadhan which was found in a well named after the Saint is kept in
+        the British Museum after being discovered many years ago. This well is situated across the road from the
+        present day Church of Ireland. “My splendid cloak adorned with gold which was on the altar of Rome, bring
+        it to Ruadhan of Lortha, since we shall die this day” extract from the last will and testament of the high
+        king of Cashel.
+    </string>
+    <string name="textInformationlackeencastle"> This tower house was constructed in the 16th century by Brian O’Kennedy,
+        who was head of the O’Kennedy Fionn (fair) branch of the clan at the time. A defensive wall known as a bawn surrounds
+        the castle that remains in remarkably good condition, this is helped by the fact that a roof remained on
+        the building up to recent times preventing corrosion and weathering. Lackeen was an O’Kennedy stronghold
+        of Lower Ormond and would have been a bustling centre of activity in the 16th century. There are the remains
+        of a mill by the river at Lackeen and a village known as Piperstown was recorded as having been on the O’Kennedys
+        estate although all traces of it have disappeared over the centuries. The O’Kennedys lost possession of the castle
+        and estate that stretched over 1,000 acres in the 1650’s; this was due to the Cromwellian confiscations. The
+        owner of Lackeen at the time was Donogh O’Kennedy who was subsequently transferred to Connaught; he received a
+        much smaller and lesser valuable estate in Clonfert Co. Galway. The O’Kennedys must have regained Lackeen at a
+        later stage as John O’Kennedy is credited with the discovery of the ‘Stowe Missal’; tradition has it that it was
+        hidden in the walls of Lackeen in the 18th century. This priceless manuscript is said to be one of the oldest books
+        of its kind in Europe and is said to have been written in the 9th century at Ruadhan’s Abbey in Lorrha. The manuscript
+        is held in the Royal Irish Academy and it’s beautifully jewel filled protective shrine is to be found in the National Museum.
+    </string>
+    <string name="textInformationredwoodcastle"> Situated by the Shannon banks, Redwood Castle was originally built by the
+        Normans in the 12th century. The McEgans received the Castle from the O’Kennedys who took possession of it from the
+        Normans. The Castle was reconstructed to its former glory by Michael McEgan in the 1970’s and is now open to the public.
+        The McEgans were Brehons and bards to the O’Kennedys and a School of Law and History was held at the castle during
+        the 16th and 17th centuries. Two famous students were educated here; they were Michael O’Cleary and Duald MacFirbis
+        who were later to contribute to the writing of the ‘Annals of the Four Masters’. O’Cleary is said to have brought
+        the unfinished book here in the mid 17th century to seek advice from McEgan. In the Confederate War of the 1640’s a
+        leading Irish rebel, Rory O’Moore of Leix, suggested the printing of papers to help promote the Irish cause. He
+        consulted one Constance McEgan of Redwood a move that wouldn’t have been to the McEgan’s favour when the Cromwellians
+        arrived to quell the rebellion.
+    </string>
+    <string name="title_activity_maps_activity_redwood_castle">Map</string>
+
+
+</resources>

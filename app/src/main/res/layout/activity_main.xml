@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mark.visitlorrha.MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageViewDominicanAbbeyMainMenu"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:layout_margin="5dp" />
+
+            <TextView
+                android:id="@+id/myImageViewText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Dominican Abbey"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:layout_alignBottom="@+id/imageViewDominicanAbbeyMainMenu"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageViewAugustinianAbbeyMainMenu"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_below="@+id/imageViewDominicanAbbeyMainMenu"
+                android:layout_alignParentStart="true"
+                android:layout_margin="5dp"/>
+
+            <TextView
+                android:id="@+id/myImageViewText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Augustinian Abbey"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_alignBottom="@+id/imageViewAugustinianAbbeyMainMenu"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageViewStRuadhansAbbeyAbbeyMainMenu"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_below="@+id/imageViewAugustinianAbbeyMainMenu"
+                android:layout_alignParentStart="true"
+                android:layout_margin="5dp"/>
+
+            <TextView
+                android:id="@+id/myImageViewText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="St Ruadhan's Abbey"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_alignBottom="@+id/imageViewStRuadhansAbbeyAbbeyMainMenu"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageViewLackeenCastleMainMenu"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_below="@+id/imageViewStRuadhansAbbeyAbbeyMainMenu"
+                android:layout_alignParentStart="true"
+                android:layout_margin="5dp" />
+
+            <TextView
+                android:id="@+id/myImageViewText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Lackeen Castle"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_alignBottom="@+id/imageViewLackeenCastleMainMenu"
+                android:layout_alignEnd="@+id/myImageViewText"
+                android:layout_centerHorizontal="true" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/RedwoodCastleMainMenu"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_below="@+id/imageViewLackeenCastleMainMenu"
+                android:layout_alignParentStart="true"
+                android:layout_margin="5dp" />
+
+            <TextView
+                android:id="@+id/myImageViewText5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Redwood Castle"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_alignBottom="@+id/RedwoodCastleMainMenu"
+                android:layout_centerHorizontal="true" />
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "753180693687",
+    "firebase_url": "https://visitlorrha.firebaseio.com",
+    "project_id": "visitlorrha",
+    "storage_bucket": "visitlorrha.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753180693687:android:c8c9a44042d5d58d",
+        "android_client_info": {
+          "package_name": "com.mark.visitlorrha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753180693687-132nkv1iro6gqig0dd8f5j8jsvs45jnt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mark.visitlorrha",
+            "certificate_hash": "99C9F3808FA7D09DE208D8ACB97CD76F0101135B"
+          }
+        },
+        {
+          "client_id": "753180693687-s5ksdn15iah5vha1ga0q0q7eveit3o0u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzaohhuTF4TExJIUgNWym-2LOGAMqfBFA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753180693687-s5ksdn15iah5vha1ga0q0q7eveit3o0u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

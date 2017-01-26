@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mark.visitlorrha">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
+    <!--android:icon="@mipmap/ic_launcher"-->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/visitlorrhaicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".DominicanAbbey"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="application/com.mark.visitlorrha.DominicanAbbey" />
+            </intent-filter>
+        </activity>
+
+        <!--<activity android:name=".DominicanAbbey">-->
+            <!--<action android:name="android.intent.action.VIEW"/>-->
+            <!--<category android:name ="android.intent.category.DEFAULT"/>-->
+            <!--<package android:name = "com.mark.visitlorrha"/>-->
+            <!--<class android:name = "com.mark.visitlorrha.DominicanAbbey"/>-->
+        <!--</activity>-->
+
+        <activity android:name=".AugustinianAbbey"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="application/com.mark.visitlorrha.AugustinianAbbey" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".StRuadhansAbbey"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="application/com.mark.visitlorrha.StRuadhansAbbey" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LackeenCastle"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="application/com.mark.visitlorrha.LackeenCastle" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".RedwoodCastle"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="application/com.mark.visitlorrha.RedwoodCastle" />
+            </intent-filter>
+        </activity>
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+
+        <activity android:name=".AudioGuide"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Photosphere"
+            android:label="@string/title_activity_photosphere"
+            android:screenOrientation="portrait">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.mark.visitlorrha.MainActivity" />
+        </activity>
+
+        <activity android:name=".AddReviewActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".LogInActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".SignUpActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".TextInformationActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ReadReviews"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".MapsActivityDominicanAbbey"
+            android:label="@string/title_activity_maps" />
+
+        <activity
+            android:name=".MapsActivityAugustinianAbbey"
+            android:label="@string/title_activity_maps_activity_augustinian_abbey"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".MapsActivityStRuadhansAbbey"
+            android:label="@string/title_activity_maps_activity_st_ruadhans_abbey"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".MapsActivityLackeenCastle"
+            android:label="@string/title_activity_maps_activity_lackeen_castle"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".MapsActivityRedwoodCastle"
+            android:label="@string/title_activity_maps_activity_redwood_castle"
+            android:screenOrientation="portrait"/>
+
+
+    </application>
+
+</manifest>

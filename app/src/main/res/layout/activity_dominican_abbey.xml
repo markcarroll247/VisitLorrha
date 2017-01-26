@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mark.visitlorrha.DominicanAbbey">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/greenbar"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:maxHeight="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/viewPageAndroidDominicanAbbey"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewLocationDominicanAbbey"
+        android:src="@drawable/ic_location_on_white_24dp"
+        android:layout_marginStart="25dp"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewAudioGuideDominicanAbbey"
+        android:src="@drawable/ic_headset_white_24dp"
+        android:layout_above="@+id/viewPageAndroidDominicanAbbey"
+        android:layout_toEndOf="@+id/imageViewLocationDominicanAbbey"
+        android:layout_marginStart="36dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewReviewDominicanAbbey"
+        android:src="@drawable/ic_rate_white_24dp"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_toStartOf="@+id/imageViewPhotosphereDominicanAbbey"
+        android:layout_marginEnd="39dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageViewPhotosphereDominicanAbbey"
+        android:src="@drawable/ic_photosphereicon_white_24dp"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_marginEnd="29dp" />
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPageAndroidDominicanAbbey"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/imageViewLocationDominicanAbbey"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Dominican Friary is located beside the present day Roman Catholic Church. It was founded in 1269 by Walter De Burgo, Earl of Ulster and a major local land...Read More "
+        android:id="@+id/textViewDescriptionOfDominicanAbbey"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/viewPageAndroidDominicanAbbey"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read Reviews"
+        android:id="@+id/readReviewsButtonDominicanAbbey"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <RatingBar
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/averageRatingBarDominicanAbbey"
+    android:isIndicator="true"
+    android:layout_above="@+id/readReviewsButtonDominicanAbbey"
+    android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewOverViewOfDominicanAbbey"
+        android:text="Dominican Abbey has an average rating of "
+        android:layout_above="@+id/averageRatingBarDominicanAbbey"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp" />
+
+
+</RelativeLayout>
